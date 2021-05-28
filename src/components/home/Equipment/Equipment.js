@@ -12,10 +12,8 @@ const Equipment = () => {
             <h1>Equipment</h1>
             <div>
             <div>
-      <CardGroup  >
-        <Card >
-          <Card.Img variant="top" src={Pic1} />
-        </Card>
+      <CardGroup>
+      <img src={Pic1}/>
 
         <Card  >
           <Card.Body className="b-color">
@@ -23,10 +21,7 @@ const Equipment = () => {
             <p className="text-justify">Cross trainer is a stationary exercise machine used to simulate stair climbing, walking, or running without causing excessive pressure to the joints, hence decreasing the risk of impact injuries.</p>
           </Card.Body>
         </Card>
-
-        <Card  >
-          <Card.Img variant="top" src={Pic2} />
-        </Card>
+        <img src={Pic2}/>
 
         <Card  >
           <Card.Body className="b-color">
@@ -40,26 +35,20 @@ const Equipment = () => {
 
       <div>
       <CardGroup  >
-        <Card  >
+        <Card >
           <Card.Body className="c-color">
           <h5 class="card-title text-warning">SEATED DIP</h5>
             <p class="text-white text-justify">The seated dip exercise tones the triceps, or the back portion of your upper arms. The machine allows you to determine the amount of weight you are pushing and using to.challenge your triceps.</p>
           </Card.Body>
         </Card>
-
-        <Card  >
-          <Card.Img variant="top" src={Pic3} />
-        </Card>
-
+          <img src={Pic3}/>
         <Card  >
           <Card.Body className="c-color">
           <h5 class="card-title text-warning">SEATED DIP</h5>
             <p class="text-white text-justify">The Dual Functional Trainer Abdominal/Lower Back is a perfect machine for users looking for functional, comfortable and space saving strength equipment. This machine is equipped with wider range of motion adjustment, 5 positions on abs and 4 positions on lower back.</p>
           </Card.Body>
         </Card>
-        <Card  >
-          <Card.Img variant="top" src={Pic4} />          
-        </Card>
+          <img src={Pic4}/>
       </CardGroup>
       </div>
             </div>
