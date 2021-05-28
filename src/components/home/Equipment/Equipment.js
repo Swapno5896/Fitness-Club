@@ -1,7 +1,10 @@
 import React from 'react';
 import css from "./Equipment.css"
 import { Card, CardGroup } from "react-bootstrap";
-
+import Pic1 from "../../../images/Pic1.PNG"
+import Pic2 from "../../../images/Pic2.PNG"
+import Pic3 from "../../../images/Pic3.PNG"
+import Pic4 from "../../../images/Pic4.PNG"
 
 const Equipment = () => {
     return (
@@ -11,9 +14,7 @@ const Equipment = () => {
             <div>
       <CardGroup  >
         <Card >
-          <Card.Body>
-            <p>Quality Protein Shakes in  Cheaper Price</p>
-          </Card.Body>
+          <Card.Img variant="top" src={Pic1} />
         </Card>
 
         <Card  >
@@ -24,9 +25,7 @@ const Equipment = () => {
         </Card>
 
         <Card  >
-          <Card.Body>
-            <p>Top notch Steam & Shower Facilities</p>
-          </Card.Body>
+          <Card.Img variant="top" src={Pic2} />
         </Card>
 
         <Card  >
@@ -49,9 +48,7 @@ const Equipment = () => {
         </Card>
 
         <Card  >
-          <Card.Body>
-            <p>Certified Trainer</p>
-          </Card.Body>
+          <Card.Img variant="top" src={Pic3} />
         </Card>
 
         <Card  >
@@ -61,9 +58,7 @@ const Equipment = () => {
           </Card.Body>
         </Card>
         <Card  >
-          <Card.Body>
-            <p>First Class Security Measures</p>
-          </Card.Body>
+          <Card.Img variant="top" src={Pic4} />          
         </Card>
       </CardGroup>
       </div>

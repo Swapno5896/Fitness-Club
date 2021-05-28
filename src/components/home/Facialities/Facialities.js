@@ -5,12 +5,12 @@ import { FaWineBottle, FaPills, FaShower, FaCar, FaRunning, FaAward, FaDumbbell,
 
 const Facialities = () => {
   return (
-    <div className="body-color">
+    <div className="body-color container">
       <h1>FACIALITIES</h1>
       <h1></h1>
       <div>
-      <CardGroup className="m-3 text-center">
-        <Card className="m-3">
+      <CardGroup className="m-3 text-center card-size">
+        <Card className="m-3 ">
           <Card.Body>
           <h2><FaWineBottle/></h2>
           
