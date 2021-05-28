@@ -4,6 +4,8 @@ const NavBar = () => {
     return (
         <div>
             <h1>this is navbar</h1>
+            <h2>I'm Sohel</h2>       
+            <h2>This is our new project</h2>       
         </div>
     );
 };
