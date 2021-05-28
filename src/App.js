@@ -3,7 +3,7 @@ import MainComponent from './components/mainComponent/MainComponent';
 
 const App = () => {
   return (
-    <div>
+    <div className="body-color">
       <MainComponent></MainComponent>
     </div>
   );
