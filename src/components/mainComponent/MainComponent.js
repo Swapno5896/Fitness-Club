@@ -1,9 +1,10 @@
 import React from 'react';
+import NavBar from '../home/NavBar/NavBar';
 
 const MainComponent = () => {
     return (
         <div>
-        <h2>this is main component</h2>
+        <NavBar/>
         </div>
     );
 };
