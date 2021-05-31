@@ -1,12 +1,15 @@
 import React from "react";
 import Class from "../Home/Class/Class";
-import Navbar from "../Home/Navbar/Navbar";
-
+import Facilities from '../Home/Facilities/Facilities'
+import Equipment from '../Home/Equipment/Equipment'
 const MainComponent = () => {
   return (
     <div>
-        <Navbar></Navbar>
+
+
       <Class></Class>
+      <Facilities />
+      <Equipment />
     </div>
   );
 };
