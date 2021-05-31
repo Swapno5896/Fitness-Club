@@ -1,0 +1,11 @@
+.class-top-banner{
+    height: 600px;
+   background-image: url('../../../images/top-banner.jpg');
+   background-repeat: no-repeat;
+   background-size: 100%;
+   opacity: .8;
+   margin-bottom: 100px;
+}
+.Class-title {
+    margin-bottom: 132px;
+}

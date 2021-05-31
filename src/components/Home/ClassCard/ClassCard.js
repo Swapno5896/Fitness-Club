@@ -4,7 +4,7 @@ const ClassCard = (props) => {
   const { title, description, img } = props.dt;
   return (
     <div
-      class="col-sm-4 "
+      class="col-sm-3 Class-card"
       style={{ backgroundImage: "../../../images/body-building.jpg" }}
     >
       <div class="card">
