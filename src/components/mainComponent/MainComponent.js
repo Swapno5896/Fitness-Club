@@ -1,12 +1,12 @@
 import React from 'react';
 import Equipment from '../home/Equipment/Equipment';
 import Facilities from '../home/Facilities/Facilities';
-import NavBar from '../home/NavBar/NavBar';
+import NavBar from '../home/NavBar/NavBar'
 
 const MainComponent = () => {
     return (
         <div>
-        <NavBar/>
+     <NavBar></NavBar>
         <Facilities/>
         <Equipment/>
         </div>
