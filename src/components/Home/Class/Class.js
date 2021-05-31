@@ -30,7 +30,7 @@ const Class = () => {
       <div className='class-top-banner d-flex align-items-center'>
         <div class="card" style={{ width: "18rem" }}>
           <div class="card-body">
-            <h5 class="card-title">KEY FEATURE</h5>
+            <h5 class="card-title">KEY FEATURE.</h5>
             <p class="card-text">Weight Tranning</p>{" "}
             <p class="card-text">Personal Tranning</p>{" "}
             <p class="card-text">Top Class Equepment</p>{" "}
