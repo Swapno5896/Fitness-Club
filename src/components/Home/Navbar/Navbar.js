@@ -1,5 +1,7 @@
 import React from "react";
+import './Navbar.css'
 
+import naVlogo from '../../../images/gem logo.jfif'
 const Navbar = () => {
   return (
     <div>
@@ -16,9 +18,7 @@ const Navbar = () => {
           >
             <span class="navbar-toggler-icon"></span>
           </button>
-          <a class="navbar-brand" href="#">
-            Navbar
-          </a>
+         <img style={{width:'68px'}} src={naVlogo} alt="" />
           <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
@@ -27,16 +27,15 @@ const Navbar = () => {
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">
+                <a class="nav-link active" href="#">
                   Link
                 </a>
               </li>
               <li class="nav-item">
                 <a
-                  class="nav-link disabled"
+                  class="nav-link active "
                   href="#"
-                  tabindex="-1"
-                  aria-disabled="true"
+              
                 >
                   Disabled
                 </a>
