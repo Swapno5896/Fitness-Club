@@ -1,2 +1,2 @@
-resturent project
+gim project
 group project
